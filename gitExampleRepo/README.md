@@ -43,3 +43,25 @@ This directory has an initialized git repository. Play around here if you wish
 - HEAD^ //parent of head (commit before head)
 - HEAD^2 //parent of parent of head
 - HEAD^^ //same thing as HEAD^2
+
+
+### Alias on my mac
+- a	 => !git add . && git status
+- aa	 => !git add . && git add -u . && git status
+- ac	 => !git add . && git commit
+- acm	 => !git add . && git commit -m
+- alias	 => !git config --list | grep 'alias\.' | sed 's/alias\.\([^=]*\)=\(.*\)/\1\	 => \2/' | sort
+- au	 => !git add -u . && git status
+- c	 => commit
+- ca	 => commit --amend
+- cm	 => commit -m
+- d	 => diff
+- l	 => log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+- lg	 => log --color --graph --pretty=format:'%C(bold white)%h%Creset -%C(bold green)%d%Creset %s %C(bold green)(%cr)%Creset %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+- ll	 => log --stat --abbrev-commit
+- llg	 => log --color --graph --pretty=format:'%C(bold white)%H %d%Creset%n%s%n%+b%C(bold blue)%an <%ae>%Creset %C(bold green)%cr (%ci)' --abbrev-commit
+- master	 => checkout master
+- s	 => status
+- spull	 => svn rebase
+- spush	 => svn dcommit
+- st	 => status
