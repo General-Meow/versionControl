@@ -1,6 +1,6 @@
 #Git Stuff
 This directory has an initialized git repository. Play around here if you wish
-man city quarter final champions league
+Man united is the best
 ##Git Commands
 
 - git init
