@@ -1,6 +1,6 @@
 #Git Stuff
 This directory has an initialized git repository. Play around here if you wish
-
+man city quarter final champions league
 ##Git Commands
 
 - git init
